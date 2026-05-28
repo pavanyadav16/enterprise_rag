@@ -158,16 +158,9 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 ### Step 3 — Load the embedding model
 
-**Windows:**
-```cmd
-scripts\load-model.bat "E:\Libraries\Sentence Transformer\all-MiniLM-L6-v2"
+```embedding model will be created by docker
 ```
 
-**Linux / macOS:**
-```bash
-chmod +x scripts/load-model.sh
-./scripts/load-model.sh /opt/models/all-MiniLM-L6-v2
-```
 
 ### Step 4 — Start
 
