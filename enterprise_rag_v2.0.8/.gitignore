@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit
+.env
+backend/conf/jwt_private_key.pem
+
+# Runtime data
+logs/
+source-files/
+chat-uploads/
+models/
+
+# Docker
+*.tar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files created by scripts
+*.bak
+.env.bak
+
+# Model files (too large for git — load via scripts/load-model.*)
+*.bin
+*.pt
+*.safetensors
+
+# SQL Server and cert files
+backend/conf/jwt_private_key.pem
+nginx/certs/
